@@ -2,7 +2,7 @@ import model.Calculator;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-public class calculator_test {
+public class CalculatorTest {
     Calculator calc = new Calculator();
 
     @Test
