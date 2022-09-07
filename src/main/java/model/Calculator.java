@@ -50,6 +50,16 @@ public class Calculator {
         };
     }
 
+    public String convertBase(String number, int source ){
+        int destination;
+        if (source == 10){
+            destination = 4;
+        }else{
+            destination = 10;
+        }
+        return Integer.toString(Integer.parseInt(number, source), destination);
+    }
+
     public void setOperator(char operator) {
         this.operator = operator;
     }

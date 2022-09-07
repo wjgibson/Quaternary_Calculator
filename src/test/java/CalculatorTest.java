@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class CalculatorTest {
+    //setting initial values for add function. These get changed in each test.
     Calculator calc = new Calculator('+', "11", "13");
 
     @Test
@@ -50,5 +51,15 @@ public class CalculatorTest {
         calc.setOperator('r');
         calc.setOperands("21", "0");
         Assertions.assertEquals(Integer.parseInt("3", 4), calc.calculate());
+    }
+
+    @Test
+    void test10to4Conversion(){
+        Assertions.assertEquals("132", calc.convertBase("30", 10));
+    }
+
+    @Test
+    void test4to10Conversion() {
+        Assertions.assertEquals("12", calc.convertBase("30", 4));
     }
 }
