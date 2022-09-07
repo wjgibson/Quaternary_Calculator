@@ -25,10 +25,17 @@ public class CalculatorTest {
     }
 
     @Test
-    void testDivide() {
+    void testDivideWithoutRemainder() {
         calc.setOperator('/');
         calc.setOperands("12", "2");
         Assertions.assertEquals(Integer.parseInt("3", 4), calc.calculate());
+    }
+
+    @Test
+    void testDivideWithRemainder(){
+        calc.setOperator('/');
+        calc.setOperands("12", "11");
+        Assertions.assertEquals(Integer.parseInt("1", 4), calc.calculate());
     }
 
     @Test
