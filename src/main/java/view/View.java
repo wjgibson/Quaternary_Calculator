@@ -17,6 +17,7 @@ public class View extends Application{
         stage.setTitle("Calculator");
         stage.setScene(scene);
         stage.show();
+        
     }
 
     public static void main(String[] args) {
