@@ -38,6 +38,16 @@ public class Calculator {
         return Integer.parseInt(String.format("%d", (int) Math.sqrt(Integer.parseInt(operand, 4))), 4);
     }
 
+    public String convertBase(String number, int source ){
+        int destination;
+        if (source == 10){
+            destination = 4;
+        }else{
+            destination = 10;
+        }
+        return Integer.toString(Integer.parseInt(number, source), destination);
+    }
+
     public int calculate() {
         return switch (this.operator) {
             case '+' -> add(operands[0], operands[1]);
@@ -48,16 +58,6 @@ public class Calculator {
             case 'r' -> squareRoot(operands[0]);
             default -> throw new IllegalStateException("Invalid operator!");
         };
-    }
-
-    public String convertBase(String number, int source ){
-        int destination;
-        if (source == 10){
-            destination = 4;
-        }else{
-            destination = 10;
-        }
-        return Integer.toString(Integer.parseInt(number, source), destination);
     }
 
     public void setOperator(char operator) {
