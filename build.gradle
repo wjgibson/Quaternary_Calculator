@@ -1,19 +1,16 @@
 plugins {
+    id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.10'
 }
 
-group 'com.mechanitis'
+group 'view'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
-javafx {
-    version = "16"
-    modules = ['javafx.controls', 'javafx.graphics', 'javafx.fxml']
-}
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
@@ -22,12 +19,14 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    javafx {
+        version = "16"
+        modules = ['javafx.controls', 'javafx.graphics', 'javafx.fxml']
+    }
+
+    mainClassName = 'view.View'
 }
 
-application {
-    mainModule.set('com.mechanitis.demo.javafxgradle')
-    mainClass.set('com.mechanitis.demo.javafxgradle.HelloFX')
-}
 
 java {
     modularity.inferModulePath.set(true)
