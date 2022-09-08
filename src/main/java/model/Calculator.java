@@ -14,20 +14,20 @@ public class Calculator {
         this.operands = new String[] { operand1, operand2 };
     }
 
-    public int add(String int1, String int2){
-        return Integer.parseInt(int1,4) + Integer.parseInt(int2,4);
+    public int add(String operand1, String operand2) {
+        return Integer.parseInt(operand1,4) + Integer.parseInt(operand2,4);
     }
 
-    public int subtract(String int1, String int2){
-        return Integer.parseInt(int1,4) - Integer.parseInt(int2,4);
+    public int subtract(String operand1, String operand2) {
+        return Integer.parseInt(operand1,4) - Integer.parseInt(operand2,4);
     }
 
-    public int multiply(String int1, String int2){
-        return Integer.parseInt(int1,4) * Integer.parseInt(int2,4);
+    public int multiply(String operand1, String operand2) {
+        return Integer.parseInt(operand1,4) * Integer.parseInt(operand2,4);
     }
 
-    public int divide(String int1, String int2){
-        return Integer.parseInt(int1,4) / Integer.parseInt(int2,4);
+    public int divide(String operand1, String operand2) {
+        return Integer.parseInt(operand1,4) / Integer.parseInt(operand2,4);
     }
 
     public int square(String operand) {
@@ -38,11 +38,11 @@ public class Calculator {
         return Integer.parseInt(String.format("%d", (int) Math.sqrt(Integer.parseInt(operand, 4))), 4);
     }
 
-    public String convertBase(String number, int source ){
+    public String convertBase(String number, int source) {
         int destination;
-        if (source == 10){
+        if (source == 10) {
             destination = 4;
-        }else{
+        } else {
             destination = 10;
         }
         return Integer.toString ( Integer.parseInt ( number, source ) , destination );
