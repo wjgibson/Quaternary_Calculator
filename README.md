@@ -13,3 +13,14 @@ William Gibson: add, subtract, multiply, delete, and convert functions. Testing 
 Melody: calculate, sq, sqrt, and respective tests<br>
 Jacob Dye: Controller.java<br>
 Jake Freestone: UI design and fxml file.<br>
+
+Meetings:<br>
+09/08/2022 12:30-1:00 {
+  present {
+    Jacob Dye,
+    Jacob Freestone,
+    William Gibson,
+    Melody Hammel
+    }
+  }
+Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared prpoject for final changes. 
