@@ -1,0 +1,12 @@
+<GridPlane fx:controller="Controller">
+    <Text fx:id="display" text="" />
+    <Button text="0" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="0"/>
+    <Button text="1" onAction="handleInput" GridPlane.columIndex="1" GridPlane.rowIndex="0"/>
+    <Button text="2" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="1"/>
+    <Button text="3" onAction="handleInput" GridPlane.columIndex="1" GridPlane.rowIndex="1"/>
+    <Button text="+" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="0"/>
+    <Button text="-" onAction="handleInput" GridPlane.columIndex="2" GridPlane.rowIndex="1"/>
+    <Button text="*" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="2"/>
+    <Button text="/" onAction="handleInput" GridPlane.columIndex="1" GridPlane.rowIndex="2"/>
+    <Button text="=" onAction="handleInput" GridPlane.columIndex="2" GridPlane.rowIndex="2"/>
+</GridPlane>
