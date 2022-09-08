@@ -45,7 +45,7 @@ public class Calculator {
         }else{
             destination = 10;
         }
-        return Integer.toString(Integer.parseInt(number, source), destination);
+        return Integer.toString ( Integer.parseInt ( number, source ) , destination );
     }
 
     public int calculate() {
