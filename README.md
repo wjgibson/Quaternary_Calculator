@@ -7,3 +7,9 @@ To launch...<br>
 3:<br>
 4:<br>
 ...
+
+Task Distribution:
+William Gibson: add, subtract, multiply, delete, and convert functions. Testing for those functions as well
+Melody: calculate, sq, sqrt, and respective tests
+Jacob Dye: Controller.java
+Jake Freestone: UI design and fxml file.
