@@ -33,7 +33,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void testDivideWithRemainder(){
+    void testDivideWithRemainder() {
         calc.setOperator('/');
         calc.setOperands("12", "11");
         Assertions.assertEquals(Integer.parseInt("1", 4), calc.calculate());
@@ -54,7 +54,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void test10to4Conversion(){
+    void test10to4Conversion() {
         Assertions.assertEquals("132", calc.convertBase("30", 10));
     }
 
