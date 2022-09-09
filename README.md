@@ -19,8 +19,7 @@ To launch...
 </ul>
 
 <h1>Meetings:</h1>
-<h2>09/08/2022 12:30-1:00</h2> 
-<h3>present</h3>
+<h3>09/08/2022 12:30-1:00 Members Present:</h3>
 <ul>
   <li>Jacob Dye</li>
   <li>Jacob Freestone</li>
