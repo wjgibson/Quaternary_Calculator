@@ -3,6 +3,7 @@ package view;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 
 public class Controller {
@@ -18,5 +19,9 @@ public class Controller {
         } else {
             display.setText(display.getText() + target.getText());
         }
+    }
+
+    public void handleButton(MouseEvent mouseEvent) {
+
     }
 }
