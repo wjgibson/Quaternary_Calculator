@@ -1,12 +1,29 @@
-<GridPlane fx:controller="Controller">
-    <Text fx:id="display" text="" />
-    <Button text="0" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="0"/>
-    <Button text="1" onAction="handleInput" GridPlane.columIndex="1" GridPlane.rowIndex="0"/>
-    <Button text="2" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="1"/>
-    <Button text="3" onAction="handleInput" GridPlane.columIndex="1" GridPlane.rowIndex="1"/>
-    <Button text="+" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="0"/>
-    <Button text="-" onAction="handleInput" GridPlane.columIndex="2" GridPlane.rowIndex="1"/>
-    <Button text="*" onAction="handleInput" GridPlane.columIndex="0" GridPlane.rowIndex="2"/>
-    <Button text="/" onAction="handleInput" GridPlane.columIndex="1" GridPlane.rowIndex="2"/>
-    <Button text="=" onAction="handleInput" GridPlane.columIndex="2" GridPlane.rowIndex="2"/>
-</GridPlane>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="332.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextArea layoutX="27.0" layoutY="13.0" prefHeight="61.0" prefWidth="286.0" />
+          <Button layoutX="132.0" layoutY="91.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="2" />
+            <Button layoutX="238.0" layoutY="91.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="3" />
+            <Button layoutX="27.0" layoutY="91.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="1" />
+            <Button layoutX="24.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="+" />
+            <Button layoutX="132.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="-" />
+            <Button layoutX="238.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="*" />
+            <Button layoutX="24.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="√" />
+            <Button layoutX="129.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="x²" />
+            <Button layoutX="238.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="/" />
+            <Button layoutX="24.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="Convert" />
+            <Button layoutX="233.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="Clear" />
+            <Button layoutX="133.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="0" />
+            <Button layoutX="133.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#handleButton" prefHeight="36.0" prefWidth="75.0" text="=" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
