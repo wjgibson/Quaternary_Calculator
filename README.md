@@ -12,10 +12,10 @@ To launch...
 
 <h1>Task Distribution:</h1>
 <ul>
-  <li>William Gibson: add, subtract, multiply, delete, and convert functions, and respective tests</li> 
-  <li>Melody: calculate, sq, sqrt, and respective tests</li>
-  <li>Jacob Dye: Controller.java</li>
-  <li>Jake Freestone: UI design and fxml file</li>
+  <li>William Gibson = add, subtract, multiply, delete, and convert functions, and respective tests</li> 
+  <li>Melody = calculate, sq, sqrt, and respective tests</li>
+  <li>Jacob Dye = Controller.java</li>
+  <li>Jake Freestone = UI design and fxml file</li>
 </ul>
 
 <h1>Meetings:</h1>
