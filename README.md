@@ -18,7 +18,7 @@ To launch...
   <li>Jake Freestone: UI design and fxml file</li>
 </ul>
 
-<h2>Meetings:</h2>
+<h1>Meetings:</h1>
 <h2>09/08/2022 12:30-1:00</h2> 
 <h3>present</h3>
 <ul>
