@@ -10,21 +10,22 @@ To launch...
   <li>etc</li>
 </ol>
 
-Task Distribution:<br>
-William Gibson: add, subtract, multiply, delete, and convert functions. Testing for those functions as well<br>
-Melody: calculate, sq, sqrt, and respective tests<br>
-Jacob Dye: Controller.java<br>
-Jake Freestone: UI design and fxml file.<br>
+<h1>Task Distribution:</h1>
+<ul>
+  <li>William Gibson: add, subtract, multiply, delete, and convert functions, and respective tests</li> 
+  <li>Melody: calculate, sq, sqrt, and respective tests</li>
+  <li>Jacob Dye: Controller.java</li>
+  <li>Jake Freestone: UI design and fxml file</li>
+</ul>
 
-<h2>Meetings:</h2>
-<h2>09/08/2022 12:30-1:00</h2> 
-<h3>present</h3>
-<ol>
+<h1>Meetings:</h1>
+<h3>09/08/2022 12:30-1:00 Members Present:</h3>
+<ul>
   <li>Jacob Dye</li>
   <li>Jacob Freestone</li>
   <li>William Gibson</li>
   <li>Melody Hammel</li>
-</ol>
+</ul>
 <br>
 <h2>Discussions</h2>
 <br>
