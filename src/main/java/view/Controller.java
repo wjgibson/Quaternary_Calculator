@@ -1,27 +1,50 @@
 package view;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 
+import java.util.Objects;
+
 public class Controller {
 
     @FXML private Text display; 
 
-    @FXML protected void handleInput(ActionEvent event) {
+    @FXML
+    public void handleButton(MouseEvent mouseEvent) {
+        Button target = ((Button)mouseEvent.getSource());
+        String input1 = "";
+        String input2 = "";
+        char operand;
+        /*
+        if (target.getText().equals("0") || target.getText().equals("1")
+                || target.getText().equals("2") || target.getText().equals("3")) {
+            input1 = target.getText();
+            if (input1.!equals("")) {
+                input2 = target.getText();
+            }
 
-        Button target = ((Button)event.getSource());
-
-        if (target.getText() == "=") {
-            // Solve
-        } else {
+            }
+        else if (target.getText().equals("=")){
             display.setText(display.getText() + target.getText());
         }
+
+         */
     }
 
-    public void handleButton(MouseEvent mouseEvent) {
+    public String[] handleNumberButton(MouseEvent mouseEvent, String input1, String input2) {
+        Button target = ((Button)mouseEvent.getSource());
+        if (input1.equals("")) {
+            input1 = target.getText();
+        } else {
+            input2 = target.getText();
+        }
+        String[] s = new String[2];
+        s[0] = input1;
+        s[1] = input2;
+        return s;
 
     }
 }
+
