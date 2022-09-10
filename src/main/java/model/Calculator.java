@@ -8,7 +8,9 @@ public class Calculator {
     * 's' for square
      */
     private String[] operands;
+    public Calculator() {
 
+    }
     public Calculator(char operator, String operand1, String operand2) {
         this.operator = operator;
         this.operands = new String[] { operand1, operand2 };
@@ -67,4 +69,9 @@ public class Calculator {
     public void setOperands(String operand1, String operand2) {
         this.operands = new String[] { operand1, operand2 };
     }
+
+    public String[] getOperands() {
+        return this.operands;
+    }
+
 }
