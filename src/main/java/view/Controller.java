@@ -107,6 +107,9 @@ public class Controller {
     public void handleEqualsButton() {
         calculator.setOperands(operand1.toString(), operand2.toString());
         display.setText(String.format("%d",calculator.calculate()));
+        currentOperator = false;
+        operand1.setLength(0);
+        operand2.setLength(0);
     }
 }
 
