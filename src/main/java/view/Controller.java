@@ -8,9 +8,8 @@ import model.Calculator;
 
 public class Controller {
     Calculator calculator = new Calculator();
-    private boolean currentOperator = false;
+    private boolean currentOperator = false, isBase4 = true;
     private StringBuilder operand1 = new StringBuilder(), operand2 = new StringBuilder();
-
     @FXML
     public TextArea display;
 
@@ -84,7 +83,8 @@ public class Controller {
     }
 
     public void handleConvertButton() {
-        display.setText(calculator.convertBase(display.getText(), 10));
+        display.setText(calculator.convertBase(display.getText(), this.isBase4 ? 4 : 10));
+        this.isBase4 = !this.isBase4;
     }
 
     public void handleClearButton() {
