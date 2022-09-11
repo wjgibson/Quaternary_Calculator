@@ -29,3 +29,5 @@ To launch...
 <h2>Discussions</h2>
 <br>
 Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared prpoject for final changes. 
+
+<h1>Screenshots</h1>
