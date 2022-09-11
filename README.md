@@ -28,10 +28,10 @@ To launch...
 <br>
 <h2>Discussions</h2>
 <br>
-Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared prpoject for final changes. 
+Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared project for final changes. 
 
 <h1>Screenshots</h1>
-<img src="Quaternary_Calculator/tree/master/Calculator%20Screenshots/controller_class_screenshot.png" alt="controller screenshot">
+<img src="tree/master/Calculator%20Screenshots/controller_class_screenshot.png" alt="controller screenshot">
 ![image](https://github.com/wjgibson/Quaternary_Calculator/tree/master/Calculator%20Screenshots/controller_class_screenshot.png)<br>
 ![image](https://github.com/wjgibson/Quaternary_Calculator/tree/master/Calculator%20Screenshots/calc_class_screenshot.png)<br>
 ![image](https://github.com/wjgibson/Quaternary_Calculator/tree/master/Calculator%20Screenshots/fxml_screenshot.png)<br>
