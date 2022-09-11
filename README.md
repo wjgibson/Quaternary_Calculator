@@ -3,10 +3,10 @@
 This is a simple calculator written in base 4. Basic functionalities include addition, subtraction, multiplication, and division.
 To launch...
 <ol>
-  <li>1: Clone project into Intellij IDE </li>
-  <li>2: Open the gradle menu (bottom left menu, select gradle sidebar)</li>
-  <li>3: Expand the tasks folder, then the application folder</li>
-  <li>4: Select run to run the calculator</li>
+  <li>Clone project into Intellij IDE </li>
+  <li>Open the gradle menu (bottom left menu, select gradle sidebar)</li>
+  <li>Expand the tasks folder, then the application folder</li>
+  <li>Select run to run the calculator</li>
 </ol>
 
 <h1>Task Distribution:</h1>
