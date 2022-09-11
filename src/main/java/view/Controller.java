@@ -6,34 +6,49 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import model.Calculator;
 
-
-import java.util.Objects;
-
 public class Controller {
     Calculator calculator = new Calculator();
 
-    @FXML private Text display;
+    @FXML
+    public Text display;
 
     @FXML
     public void handleTwoButton(MouseEvent mouseEvent) {
         Button target = ((Button) mouseEvent.getSource());
-        if (calculator.getOperands() == null){
-            calculator.setOperands(target.getText(), null);
+        if (calculator.getOperand1().equals("")){
+            calculator.setOperand1(target.getText());
         }
         else {
-            calculator.setOperands("2", "2");
+            calculator.setOperand2(target.getText());
         }
-        display.setText(display + target.getText());
+        display.setText(display.getText() + target.getText());
     }
     public void handleThreeButton(MouseEvent mouseEvent) {
-
+        Button target = ((Button) mouseEvent.getSource());
+        if (calculator.getOperand1().equals("")){
+            calculator.setOperand1(target.getText());
+        }
+        else {
+            calculator.setOperand2(target.getText());
+        }
+        display.setText(display.getText() + target.getText());
     }
 
     public void handleOneButton(MouseEvent mouseEvent) {
+        Button target = ((Button) mouseEvent.getSource());
+        if (calculator.getOperand1().equals("")){
+            calculator.setOperand1(target.getText());
+        }
+        else {
+            calculator.setOperand2(target.getText());
+        }
+        display.setText(display.getText() + target.getText());
     }
 
     public void handlePlusButton(MouseEvent mouseEvent) {
+        Button target = ((Button) mouseEvent.getSource());
         calculator.setOperator('+');
+        display.setText(display.getText() + target.getText());
     }
 
     public void handleMinusButton(MouseEvent mouseEvent) {
@@ -57,12 +72,26 @@ public class Controller {
     }
 
     public void handleConvertButton(MouseEvent mouseEvent) {
+        // calculator.convertBase(display.getText(), )
     }
 
     public void handleClearButton(MouseEvent mouseEvent) {
+        display.setText("");
+        calculator.setOperand1("");
+        calculator.setOperand2("");
+        calculator.setOperands("", "");
     }
 
+
     public void handleZeroButton(MouseEvent mouseEvent) {
+        Button target = ((Button) mouseEvent.getSource());
+        if (calculator.getOperand1().equals("")){
+            calculator.setOperand1(target.getText());
+        }
+        else {
+            calculator.setOperand2(target.getText());
+        }
+        display.setText(display.getText() + target.getText());
     }
 
     public void handleEqualsButton(MouseEvent mouseEvent) {
