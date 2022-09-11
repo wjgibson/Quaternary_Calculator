@@ -8,6 +8,8 @@ public class Calculator {
     * 's' for square
      */
     private String[] operands;
+    private String operand1 = "";
+    private String operand2 = "";
     public Calculator() {
 
     }
@@ -74,4 +76,18 @@ public class Calculator {
         return this.operands;
     }
 
+    public String getOperand1() {
+        return operand1;
+    }
+    public String getOperand2() {
+        return operand2;
+    }
+
+    public void setOperand1(String operand1) {
+        this.operand1 = operand1;
+    }
+
+    public void setOperand2(String operand2) {
+        this.operand2 = operand2;
+    }
 }
