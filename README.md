@@ -31,7 +31,7 @@ To launch...
 Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared prpoject for final changes. 
 
 <h1>Screenshots</h1>
-![image](controller_class_screenshot.jpg)<br>
-![image](calculator_class_screenshot.jpg)<br>
-![image](fxml_screenshot.jpg)<br>
-![ScreenShot](program_screenshot.jpg)<br>
+![image](controller_class_screenshot.png)<br>
+![image](calc_class_screenshot.png)<br>
+![image](fxml_screenshot.png)<br>
+![image](program_screenshot.png)<br>
