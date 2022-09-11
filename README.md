@@ -31,7 +31,7 @@ To launch...
 Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared prpoject for final changes. 
 
 <h1>Screenshots</h1>
-![ScreenShot](https://raw.githubusercontent.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg)<br>
-![ScreenShot](calculator_class_screenshot.jpg)<br>
-![ScreenShot](fxml_screenshot.jpg)<br>
+![image](controller_class_screenshot.jpg)<br>
+![image](calculator_class_screenshot.jpg)<br>
+![image](fxml_screenshot.jpg)<br>
 ![ScreenShot](program_screenshot.jpg)<br>
