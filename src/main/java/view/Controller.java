@@ -123,6 +123,7 @@ public class Controller {
         display.setText(Integer.toString(calculator.calculate(), 4));
         currentOperator = false;
         operand1.setLength(0);
+        operand1.append(display.getText());
         operand2.setLength(0);
     }
 }
