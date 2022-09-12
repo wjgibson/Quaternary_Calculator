@@ -31,6 +31,7 @@ To launch...
 Discussed final UI decisions, troubleshooted some code for everybody, distributed final tasks, and prepared project for final changes. 
 
 <h1>Screenshots</h1>
+
 ![calc_class_screenshot](https://user-images.githubusercontent.com/89548120/189554363-46c60582-e4ac-441b-8996-c966e5c52186.png)<br>
 ![controller_class_screenshot](https://user-images.githubusercontent.com/89548120/189553666-2261883c-bef4-48a6-a8ea-44d07ca1bbbc.png)<br>
 ![fxml_screenshot](https://user-images.githubusercontent.com/89548120/189553679-1d190ee9-ba3f-4e40-9363-5aa67c14aaf8.png)<br>
