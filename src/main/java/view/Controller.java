@@ -102,6 +102,8 @@ public class Controller {
     public void handleClearButton() {
         display.setText("");
         calculator.setOperands("", "");
+        operand1.setLength(0);
+        operand2.setLength(0);
         this.isBase4 = true;
     }
 
