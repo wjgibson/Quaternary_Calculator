@@ -78,7 +78,7 @@ public class Controller {
 
     public void handleDivideButton() {
         calculator.setOperator('/');
-        display.setText(display.getText() + "÷");
+        display.setText(display.getText() + "/");
         this.currentOperator = true;
     }
 
