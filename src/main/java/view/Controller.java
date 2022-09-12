@@ -92,6 +92,7 @@ public class Controller {
     public void handleClearButton() {
         display.setText("");
         calculator.setOperands("", "");
+        this.isBase4 = true;
     }
 
 
