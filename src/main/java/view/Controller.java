@@ -9,14 +9,14 @@ import model.Calculator;
 public class Controller {
     Calculator calculator = new Calculator();
     private boolean currentOperator = false, isBase4 = true;
-    private StringBuilder operand1 = new StringBuilder(), operand2 = new StringBuilder();
+    private final StringBuilder operand1 = new StringBuilder(), operand2 = new StringBuilder();
     @FXML
     public TextArea display;
 
     @FXML
     public void handleTwoButton(MouseEvent mouseEvent) {
         Button target = ((Button) mouseEvent.getSource());
-        if (currentOperator){
+        if (currentOperator) {
             operand2.append("2");
         }
         else {
@@ -24,9 +24,10 @@ public class Controller {
         }
         display.setText(display.getText() + target.getText());
     }
+    @FXML
     public void handleThreeButton(MouseEvent mouseEvent) {
         Button target = ((Button) mouseEvent.getSource());
-        if (currentOperator){
+        if (currentOperator) {
             operand2.append("3");
         }
         else {
@@ -35,9 +36,10 @@ public class Controller {
         display.setText(display.getText() + target.getText());
     }
 
+    @FXML
     public void handleOneButton(MouseEvent mouseEvent) {
         Button target = ((Button) mouseEvent.getSource());
-        if (currentOperator){
+        if (currentOperator) {
             operand2.append("1");
         }
         else {
@@ -46,24 +48,28 @@ public class Controller {
         display.setText(display.getText() + target.getText());
     }
 
+    @FXML
     public void handlePlusButton() {
         calculator.setOperator('+');
         display.setText(display.getText() + "+");
         this.currentOperator = true;
     }
 
+    @FXML
     public void handleMinusButton() {
         calculator.setOperator('-');
         display.setText(display.getText() + "-");
         this.currentOperator = true;
     }
 
+    @FXML
     public void handleTimesButton() {
         calculator.setOperator('*');
         display.setText(display.getText() + "*");
         this.currentOperator = true;
     }
 
+    @FXML
     public void handleRootButton() {
         calculator.setOperator('r');
         calculator.setOperands(operand1.toString(),"");
@@ -71,6 +77,7 @@ public class Controller {
         calculator.setOperands("","");
     }
 
+    @FXML
     public void handleSquareButton() {
         calculator.setOperator('s');
         calculator.setOperands(operand1.toString(),"");
@@ -78,27 +85,30 @@ public class Controller {
         calculator.setOperands("","");
     }
 
+    @FXML
     public void handleDivideButton() {
         calculator.setOperator('/');
         display.setText(display.getText() + "/");
         this.currentOperator = true;
     }
 
+    @FXML
     public void handleConvertButton() {
         display.setText(calculator.convertBase(display.getText(), this.isBase4 ? 4 : 10));
         this.isBase4 = !this.isBase4;
     }
 
+    @FXML
     public void handleClearButton() {
         display.setText("");
         calculator.setOperands("", "");
         this.isBase4 = true;
     }
 
-
+    @FXML
     public void handleZeroButton(MouseEvent mouseEvent) {
         Button target = ((Button) mouseEvent.getSource());
-        if (currentOperator){
+        if (currentOperator) {
             operand2.append("0");
         }
         else {
@@ -107,6 +117,7 @@ public class Controller {
         display.setText(display.getText() + target.getText());
     }
 
+    @FXML
     public void handleEqualsButton() {
         calculator.setOperands(operand1.toString(), operand2.toString());
         display.setText(Integer.toString(calculator.calculate(), 4));
