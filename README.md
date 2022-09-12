@@ -47,6 +47,6 @@ Discussed final UI decisions, troubleshooted some code for everybody, distribute
   <li>If squaring or taking the square root...</li>
   <li>Input a number on the keypad</li>
   <li>Select sqr or sqrt</li>
-  <li>Hit equals</li>
+  <li>Calculator will automatically display result</li>
 </ul>
 
