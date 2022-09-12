@@ -1,6 +1,6 @@
 <h1>Quaternary_Calculator</h1>
 
-This is a simple calculator written in base 4. Basic functionalities include addition, subtraction, multiplication, and division.
+This is a simple calculator written in base 4. Basic functionalities include addition, subtraction, multiplication, division, square, and square-root.
 To launch...
 <ol>
   <li>Clone project into Intellij IDE </li>
@@ -36,4 +36,17 @@ Discussed final UI decisions, troubleshooted some code for everybody, distribute
 ![controller_class_screenshot](https://user-images.githubusercontent.com/89548120/189553666-2261883c-bef4-48a6-a8ea-44d07ca1bbbc.png)<br>
 ![fxml_screenshot](https://user-images.githubusercontent.com/89548120/189553679-1d190ee9-ba3f-4e40-9363-5aa67c14aaf8.png)<br>
 ![fxml_screenshot](https://user-images.githubusercontent.com/89548120/189553679-1d190ee9-ba3f-4e40-9363-5aa67c14aaf8.png)<br>
+
+<h1>How to use</h1>
+<ul>
+  <li>For basic operations...</li>
+  <li>Input a number on the keypad</li>
+  <li>Select an operator</li>
+  <li>Input another number</li>
+  <li>Hit Equals</li><br>
+  <li>If squaring or taking the square root...</li>
+  <li>Input a number on the keypad</li>
+  <li>Select sqr or sqrt</li>
+  <li>Hit equals</li>
+</ul>
 
