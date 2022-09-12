@@ -39,12 +39,12 @@ Discussed final UI decisions, troubleshooted some code for everybody, distribute
 
 <h1>How to use</h1>
 <ul>
-  <li>For basic operations...</li>
+  <li><h2>For basic operations...</h2></li>
   <li>Input a number on the keypad</li>
   <li>Select an operator</li>
   <li>Input another number</li>
   <li>Hit Equals</li><br>
-  <li>If squaring or taking the square root...</li>
+  <li><h2>If squaring or taking the square root...</h2></li>
   <li>Input a number on the keypad</li>
   <li>Select sqr or sqrt</li>
   <li>Calculator will automatically display result</li>
