@@ -66,13 +66,15 @@ public class Controller {
 
     public void handleRootButton() {
         calculator.setOperator('r');
-        display.setText(String.format("%d",calculator.calculate()));
+        calculator.setOperands(operand1.toString(),"");
+        display.setText(Integer.toString(calculator.calculate(), 4));
         calculator.setOperands("","");
     }
 
     public void handleSquareButton() {
         calculator.setOperator('s');
-        display.setText(String.format("%d",calculator.calculate()));
+        calculator.setOperands(operand1.toString(),"");
+        display.setText(Integer.toString(calculator.calculate(), 4));
         calculator.setOperands("","");
     }
 
